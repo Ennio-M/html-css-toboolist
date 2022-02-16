@@ -44,7 +44,6 @@
     font-size: 15px;
     padding: 5px 18px;
     border-radius: 5px;
-    border-collapse: collapse;
 }
 .button:hover{
     cursor: pointer;
@@ -58,4 +57,41 @@ nav>button:nth-child(2){
 nav{
     padding-bottom: 10px;
     border-bottom: 3px solid #F8F8F8;
+}
+ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+font-size: 25px;
+font-weight: bold;
+}
+.item{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.check{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    border: 2px solid #6CC4AF;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #6CC4AF;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+}
+.border-red{
+    border-color: #EB5953;
+    color: #EB5953;
+}
+.group{
+    margin-top: 30px;
+}
+.dist{
+    margin-top: 10px;
 }
