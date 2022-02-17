@@ -95,3 +95,25 @@ font-weight: bold;
 .dist{
     margin-top: 10px;
 }
+.box{
+    display: inline-block;
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.bg-purple{
+    background-color: #9C72E4;
+}
+.bg-green{
+    background-color: #6CC4AF;
+}
+.bg-orange{
+    background-color: #F29E33;
+}
+.bg-pink{
+    background-color: #D863A1;
+}
+.bg-badgreen{
+    background-color: #B0C926;
+}
